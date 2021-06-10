@@ -24,6 +24,6 @@ const { getHeapStatistics } = require("v8") //v8 module
 
 log(getHeapStatistics())
 //one con of using this is that you have to look at all the require statements to know where the log and get heapstatistics come from 
-
+// this result in the same thing as above (lines 10-17)
 
 
